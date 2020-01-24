@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wordpress_api/pages/login_page.dart';
+import 'package:wordpress_api/pages/splash_page.dart';
 import 'package:wordpress_api/supplemental/cut_corners_border.dart';
 
 import 'configs/colors.dart';
@@ -10,7 +11,7 @@ class WordPressApi extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: _kWordPressTheme,
-      home: LoginPage(),
+      home: SplashFirst(),
     );
   }
 }
