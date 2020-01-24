@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wordpress_api/pages/login.dart';
+import 'package:wordpress_api/pages/login_page.dart';
 import 'package:wordpress_api/supplemental/cut_corners_border.dart';
 
 import 'configs/colors.dart';
